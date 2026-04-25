@@ -6,7 +6,7 @@ import { componentTagger } from "lovable-tagger";
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), "");
-  const siteUrl = (env.VITE_SITE_URL || "https://insta-beta-liart.vercel.app").replace(/\/+$/, "");
+  const siteUrl = (env.VITE_SITE_URL || "https://nuvragreen.com/").replace(/\/+$/, "");
 
   return {
     server: {
